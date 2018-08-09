@@ -4,26 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.1">
-        <AutoCompleteTextView
-            android:layout_width="0dp"
-            android:layout_weight="0.85"
-            android:layout_height="match_parent"
-            android:id="@+id/actv"/>
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_weight="0.15"
-            android:layout_height="match_parent"
-            android:id="@+id/b1"
-            android:text="S"/>
-    </LinearLayout>
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.9"
-        android:id="@+id/lv"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:text="Contact"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/msz"
+        android:text="Message"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:text="Call Log"
+        android:layout_gravity="center"/>
 </LinearLayout>
